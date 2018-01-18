@@ -1,0 +1,98 @@
+#heading{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color:burlywood;
+    line-height: 35px;
+    letter-spacing: 3px;
+    height: 130px;
+    padding::3px;
+}
+
+.stripe{
+    background-color:bisque;
+    height:25px;
+    font-size: 14px !important;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.text{
+    position:absolute;
+    margin-left: 9%;
+    font-size: 140px;
+    color: bisque;
+}
+
+#lowertext{
+    margin-left: 25%;
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: 'Supermercado One', cursive;
+}
+
+#text5{
+    position:absolute;
+    margin-left: 30%;
+    font-size: 140px;
+    color: bisque;
+}
+
+#itext{
+    position:absolute;
+    margin-left: 30%;
+    font-size: 140px;
+}
+
+.button{
+    border: none;
+    background: none;
+    padding-top: 3px;
+    margin: 0;
+    color: burlywood;
+    height:100% ;
+    font-family: 'Exo 2', sans-serif !important;
+    text-transform: uppercase !important;
+}
+
+.active{
+    color: bisque;
+    background-color: burlywood;
+    height:100% !important;
+}
+
+#message{
+    display: inline-block;
+    width:20%;
+}
+
+.again{
+    border: none;
+    background: none;
+    padding-top: 3px;
+    margin: 0;
+    color: burlywood;
+    height:100% ;
+    font-family: 'Exo 2', sans-serif !important;
+    text-transform: uppercase !important;
+}
+
+.square{
+    width:30%;
+    padding-bottom: 30%;
+    background-color:burlywood;
+    margin:5px;
+    border-radius: 110px;
+}
+
+#colours{
+    margin-top: 15px;
+}
+
+#contain{
+    margin: 0 auto;
+    max-width:600px;
+}
+

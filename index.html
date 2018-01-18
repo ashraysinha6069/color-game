@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>color game</title>
+        <link rel="stylesheet" href="bootstrap.css"/>
+        <link rel="stylesheet" href="main.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Exo+2:800|Titillium+Web:200,300" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Supermercado+One" rel="stylesheet">
+
+         </head>
+    <body>
+        <script type="text/javascript" src="game.js"></script>
+        <!--heading-->
+        
+        <div class="row">
+                <div class="col-lg-12" id="heading">
+                    The great<br/><span style="font-size: 5rem;" id="value"> RGB(0,0,0)</span><br/> guessing game
+                </div>
+        </div>
+        <!--heading ends-->
+        <!--stripe-->
+        
+        <div class="stripe">
+            <div class="container">
+            <button class="again">Reset Game</button>
+            <span id="message"></span>    
+            <button class="hard button">hard</button>
+            <button class="easy button active">Easy</button>    
+            </div>
+        </div>
+        
+        <!--stripe ends-->
+        <!--game portal-->
+        
+        <div class="container" id="colours">
+            <div class="row" id="contain">
+                <center>
+                <div class="col-lg-2 col-md-6 col-sm-4 square" id="sq-1"><div class="text" id="text1">Y</div></div>
+                <div class="col-lg-2 col-md-6 col-sm-4 square" id="sq-2"><div class="text" id="text2">O</div></div>
+                <div class="col-lg-2 col-md-6 col-sm-4 square" id="sq-3"><div class="text" id="text3">U</div></div>
+                <div class="col-lg-2 col-md-6 col-sm-4 square" id="sq-4"><div class="text" id="text4">W</div></div>
+                <div class="col-lg-2 col-md-6 col-sm-4 square" id="sq-5"><div class="text" id="text5">I</div></div>
+                <div class="col-lg-2 col-md-6 col-sm-4 square" id="sq-6"><div class="text" id="text6">N</div></div>
+                </center>
+            </div>
+        </div>    
+                
+        <!--game portal ends-->
+         <div id="lowertext">
+             guess the color mentioned above as RGB
+        </div>
+        
+    </body>
+</html>
