@@ -5,7 +5,7 @@ window.onload = function(){
     var ar = [0,0,0];
     var htmlar = [0,0,0];
     var colorar =[0,0,0];
-    //var gameplay true;
+    var gameplay;
     
     generate();
     
